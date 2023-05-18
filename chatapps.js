@@ -9,7 +9,7 @@ app.get('/', (req, res) => {
     res.sendFile(__dirname + '/chatapps.html');
   });
   
-  let user = 1
+  let user = 0
   let id = 1
   io.on('connection', (socket) => {
     socket.on("message", (data) => {
