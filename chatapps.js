@@ -34,6 +34,6 @@ app.get('/', (req, res) => {
     })
     });
   
-  server.listen(5000, () => {
-    console.log(`http://localhost:${5000}`);
+  server.listen(3000, () => {
+    console.log(`http://localhost:${3000}`);
   });
