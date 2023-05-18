@@ -4,7 +4,7 @@
   "description": "",
   "main": "chatapps.js",
   "scripts": {
-    "start": "nodemon chatapps",
+    "start": "node chatapps",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
